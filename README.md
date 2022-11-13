@@ -8,13 +8,14 @@
 ## Post request player
 Bij de post request moet 5 dingen meegeven: de username, voornaam, achternaam, email en mmr. Dit moet je ingeven in een JSON formaat.
 Voorbeeld van een body in JSON: \
+<pre>
 **{**\
     **userName: "Player1",**\
     **firstName: "Dennis",**\
     **lastName: "Raaijmakers",**\
     **mmr: 850**\
 **}**
-
+</pre>
 ## Get request player
 De informatie die je krijgt als je de speler opzoekt zijn: de username, voornaam, achternaam, email en mmr van de speler. 
 Als je een lijst wilt met alle spelers kan je **/player/info/all** toe te voegen aan de url. Hier wordt gebruik gemaakt van een path parameter.
