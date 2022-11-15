@@ -1,13 +1,13 @@
 # Project API
 ## Gemaakt door Dennis Raaijmakers (r0894881)
-## 2CCS01
+## Klas: 2CCS01
 
 ## Beschrijving + links
 ### Het onderwerp van mijn API is een video spel genaamd Rainbow Six Siege. In mijn API kan je informatie van een speler opvragen of een nieuwe speler maken en informatie van een opperator opvragen.
 
 ## Post request player
 Bij de post request moet 5 dingen meegeven: de username, voornaam, achternaam, email en mmr. Dit moet je ingeven in een JSON formaat.
-Voorbeeld van een body in JSON: \
+Voorbeeld van een body in JSON:
 <pre>
 {
     userName: "Player1",
