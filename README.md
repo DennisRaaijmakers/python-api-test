@@ -35,3 +35,9 @@ Als je in de url **/opperator/info/specific/{opp_id}** (met opp_id als een numme
 ## Screenshot van werkende API
 
 
+
+## Bronnenlijst: 
+https://technotrampoline.com/articles/building-an-ajax-form-with-alpinejs/
+https://pages.github.com/
+https://www.youtube.com/watch?v=0RqfzBRDWtk
+https://www.youtube.com/watch?v=NuDSWGOcvtg
