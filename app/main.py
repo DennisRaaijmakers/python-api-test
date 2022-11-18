@@ -1,14 +1,13 @@
 import random
 
 import db
-from db import Opperator, Player
 from fastapi import FastAPI, Query, Path
 
 from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 db.setup_database()
-#CORS
+# CORS
 origins = ["*"]
 
 app.add_middleware(
@@ -28,7 +27,7 @@ async def create_player(p: dict):
 
 
 # random opperators uit de lijst
-#query parameter
+# query parameter
 @app.get("/opperators/info/query/random", response_model=list)
 async def get_random_opperators(amount: int = Query(default=1, gt=0)):
     # een tijdelijke copy van de opperators, zodat we geen duplicates krijgen
@@ -50,14 +49,15 @@ async def get_random_opperators(amount: int = Query(default=1, gt=0)):
 
 
 # hiermee vraag je de player op bij zijn naam
-#path parameter
+# path parameter
 
-@app.get("/players/info/specific/{name}", response_model=Player)
+@app.get("/players/info/specific/{name}", response_model=db.Player)
 async def get_player(name: str):
     for player in db.get_all_players():
         if player.get("first_name") == name:
             return player
-    return Player()
+    return db.Player()
+
 
 # Laat alle players zien
 @app.get("/players/info/all", response_model=list)
@@ -74,10 +74,10 @@ async def get_all():
 # Hiermee kan je een specifieke opperator laten tonen door gebruik te maken van het id
 # path parameter
 
-@app.get("/opperators/info/specific/{opp_id}", response_model=Opperator)
+@app.get("/opperators/info/specific/{opp_id}", response_model=db.Opperator)
 async def get_opperator(opp_id: int = Path(ge=0, le=60)):
     for opp in db.get_all_opperators():
         if opp.get("opp_id") == opp_id:
             return opp
 
-    return Opperator()
+    return db.Opperator()
