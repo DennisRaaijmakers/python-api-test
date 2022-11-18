@@ -13,7 +13,7 @@ Voorbeeld van een body in JSON:
     userName: "Player1",
     firstName: "Dennis",
     lastName: "Raaijmakers",
-    mmr: 850
+    mmr: 3577
 }
 </pre>
 ## Get request player
