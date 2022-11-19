@@ -3,7 +3,7 @@
 ## Klas: 2CCS01
 
 ## Beschrijving + links
-### Het onderwerp van mijn API is een video spel genaamd Rainbow Six Siege. In mijn API kan je informatie van een speler opvragen of een nieuwe speler maken en informatie van een opperator opvragen.
+### Het onderwerp van mijn API is een video spel genaamd Rainbow Six Siege. In mijn API kan je informatie van een speler opvragen of een nieuwe speler maken en informatie van een opperator opvragen. <br />
 
 ## Post request player
 Bij de post request kan je een speler aanmaken. Je moet 5 waardes meegeven: de username, voornaam, achternaam, email en mmr. Dit moet je ingeven in een JSON formaat.
@@ -30,11 +30,11 @@ Als je in de url `/opperator/info/all` ingeeft dan krijg je de informatie van al
 
 Als je in de url `/opperator/info/specific/{opp_id}` (met opp_id als een nummer) dan krijg je een specifieke opperater die het id heeft die in de url meegegeven wordt. Hier wordt gebruik gemaakt van een **path parameter**.
 
-Als je in de url `/opperator/info/query/random?amount=2` (de nummer 2 kan je aanpassen) krijg je in dit geval 2 random opperators te zien met hun opp_id, opperatorName, primaryWeapon en secondaryWeapon. Hier wordt er gebruik gemaakt van een **query parameter**.
+Als je in de url `/opperator/info/query/random?amount=2` (de nummer 2 kan je aanpassen) krijg je in dit geval 2 random opperators te zien met hun opp_id, opperatorName, primaryWeapon en secondaryWeapon. Hier wordt er gebruik gemaakt van een **query parameter**. <br />
 
 ## Uitbreiding
 Ik heb de website gestyled zodat de website er iets beter uitziet.
-Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.
+Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.<br />
 
 ## Links API:
 ### Link naar hosted API:
