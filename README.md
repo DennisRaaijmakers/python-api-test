@@ -2,7 +2,7 @@
 ## Dennis Raaijmakers (r0894881)
 ## Klas: 2CCS01
 
-## Beschrijving + links
+## Beschrijving van het gekozen onderwerp
 ### Het onderwerp van mijn API is een video spel genaamd Rainbow Six Siege. In mijn API kan je informatie van een speler opvragen of een nieuwe speler maken en informatie van een opperator opvragen. <br />
 
 ## Post request player
