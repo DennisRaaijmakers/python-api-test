@@ -75,7 +75,7 @@ async def get_all():
 # path parameter
 
 @app.get("/opperators/info/specific/{opp_id}", response_model=db.Opperator)
-async def get_opperator(opp_id: int = Path(ge=0, le=60)):
+async def get_opperator(opp_id: int = Path(ge=0, le=60, default=1)):
     for opp in db.get_all_opperators():
         if opp.get("opp_id") == opp_id:
             return opp
