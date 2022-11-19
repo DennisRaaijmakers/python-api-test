@@ -1,6 +1,6 @@
 import random
 
-import db
+from . import db
 from fastapi import FastAPI, Query, Path
 
 from starlette.middleware.cors import CORSMiddleware
