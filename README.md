@@ -42,8 +42,18 @@ Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.<br />
 ### Link naar hosted front end: https://dennisraaijmakers.github.io/
 
 ## Screenshot van werkende API
-Hier kan je zien dat ik een player aangemaakt heb via de website. Eerst klik je op submit om een player aan te maken vervolgens druk je op de knop show players en dan worden alle spelers getoont, ook de speler die je zelf hebt aangemaakt.
-![website post + werkende get request](images/post_request_website.PNG)
+Hier kan je zien dat ik een speler aangemaakt heb via de website. Eerst klik je op submit om een player aan te maken vervolgens druk je op de knop show players en dan worden alle spelers getoont, ook de speler die je zelf hebt aangemaakt.
+![website post + werkende get request](images/post_request_website.PNG) <br />
+
+Via postman kan je ook get en post requests uitvoeren. <br />
+Op deze foto kan je zien dat alle operators getoont worden door `https://api-service-dennisraaijmakers.cloud.okteto.net/opperators/info/all` in te geven.
+![postman all players](images/postman_all_operators.PNG) <br />
+
+Je kan ook een specifieke operator opvragen door `https://api-service-dennisraaijmakers.cloud.okteto.net/opperators/info/specific/{opp_id}` (met opp_id een cijfer) in te geven.
+![postman specific player](images/postman_specific_operators.PNG) <br />
+
+Als query parameter heb ik gekozen om verschillende opperators random te tonen. Er kunnen geef dubbele komen want als je een getal mee geeft dat groter of gelijk is aan het aantal operators dan worden ze allemaal gegeven. Ook kan je niet hoger gaan als 60.
+![postman random players](images/postman_random_operators.PNG) <br />
 
 ## Bronnenlijst: 
 https://technotrampoline.com/articles/building-an-ajax-form-with-alpinejs/ <br />
