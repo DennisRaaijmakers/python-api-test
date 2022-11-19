@@ -50,3 +50,4 @@ https://technotrampoline.com/articles/building-an-ajax-form-with-alpinejs/ <br /
 https://pages.github.com/ <br />
 https://www.youtube.com/watch?v=0RqfzBRDWtk <br />
 https://www.youtube.com/watch?v=NuDSWGOcvtg <br />
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax <br />
