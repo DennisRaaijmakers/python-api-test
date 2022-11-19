@@ -1,18 +1,19 @@
 # Project API
-## Gemaakt door Dennis Raaijmakers (r0894881)
+## Dennis Raaijmakers (r0894881)
 ## Klas: 2CCS01
 
 ## Beschrijving + links
 ### Het onderwerp van mijn API is een video spel genaamd Rainbow Six Siege. In mijn API kan je informatie van een speler opvragen of een nieuwe speler maken en informatie van een opperator opvragen.
 
 ## Post request player
-Bij de post request moet 5 dingen meegeven: de username, voornaam, achternaam, email en mmr. Dit moet je ingeven in een JSON formaat.
+Bij de post request kan je een speler aanmaken. Je moet 5 waardes meegeven: de username, voornaam, achternaam, email en mmr. Dit moet je ingeven in een JSON formaat.
 Voorbeeld van een body in JSON:
 <pre>
 {
     userName: "Player1",
     firstName: "Dennis",
     lastName: "Raaijmakers",
+    email: "test@gmail.com"
     mmr: 3577
 }
 </pre>
@@ -27,6 +28,10 @@ De informatie die je krijgt van een opperator zijn: opp_id, opperatorName, prima
 Als je in de url **/opperator/info/all** ingeeft dan krijg je de informatie van alle opperators. Hier wordt gebruik gemaakt van een path parameter.
 
 Als je in de url **/opperator/info/specific/{opp_id}** (met opp_id als een nummer) dan krijg je een specifieke opperater die het id heeft die in de url meegegeven wordt. Hier wordt gebruik gemaakt van een query parameter.
+
+## uitbreiding
+Ik heb de website gestyled zodat de website er iets beter uitziet.
+Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.
 
 ### Link naar hosted API:
 ### Link naar front end: https://github.com/DennisRaaijmakers/dennisraaijmakers.github.io
