@@ -71,11 +71,11 @@ Url: `https://api-service-dennisraaijmakers.cloud.okteto.net/players/info/specif
 
 Via postman kan je ook een post request uitvoeren. <br />
 Url: `https://api-service-dennisraaijmakers.cloud.okteto.net/players/create`
-![postman post player](images/post_request_1.PNG) <br />
+![postman post player](images/postman_post_request_1.PNG) <br />
 
 Als je vervolgens een nieuwe specifieke request doet voor de speler dan kan je zien dat deze is toegevoegd.
 Url: `https://api-service-dennisraaijmakers.cloud.okteto.net/players/info/specific/post`
-![show postman post player](images/post_request_2.PNG) <br />
+![show postman post player](images/postman_post_request_2.PNG) <br />
 
 Je kan ook nog op de website checken of de speler toegevoegd is door weer op de knop show players te drukken.
 ![website posted player](images/post_request_website_2.PNG) <br />
