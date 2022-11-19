@@ -33,6 +33,7 @@ Als je in de url **/opperator/info/specific/{opp_id}** (met opp_id als een numme
 Ik heb de website gestyled zodat de website er iets beter uitziet.
 Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.
 
+## Links API:
 ### Link naar hosted API:
 ### Link naar front end: https://github.com/DennisRaaijmakers/dennisraaijmakers.github.io
 ### Link naar hosted front end: https://dennisraaijmakers.github.io/
