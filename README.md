@@ -29,15 +29,15 @@ Als je in de url **/opperator/info/all** ingeeft dan krijg je de informatie van 
 Als je in de url **/opperator/info/specific/{opp_id}** (met opp_id als een nummer) dan krijg je een specifieke opperater die het id heeft die in de url meegegeven wordt. Hier wordt gebruik gemaakt van een query parameter.
 
 ### Link naar hosted API:
-### Link naar front end:
-### Link naar hosted front end: 
+### Link naar front end: https://github.com/DennisRaaijmakers/dennisraaijmakers.github.io
+### Link naar hosted front end: https://dennisraaijmakers.github.io/
 
 ## Screenshot van werkende API
 
 
 
 ## Bronnenlijst: 
-https://technotrampoline.com/articles/building-an-ajax-form-with-alpinejs/
-https://pages.github.com/
-https://www.youtube.com/watch?v=0RqfzBRDWtk
-https://www.youtube.com/watch?v=NuDSWGOcvtg
+https://technotrampoline.com/articles/building-an-ajax-form-with-alpinejs/ <br />
+https://pages.github.com/ <br />
+https://www.youtube.com/watch?v=0RqfzBRDWtk <br />
+https://www.youtube.com/watch?v=NuDSWGOcvtg <br />
