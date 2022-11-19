@@ -29,7 +29,7 @@ Als je in de url **/opperator/info/all** ingeeft dan krijg je de informatie van 
 
 Als je in de url **/opperator/info/specific/{opp_id}** (met opp_id als een nummer) dan krijg je een specifieke opperater die het id heeft die in de url meegegeven wordt. Hier wordt gebruik gemaakt van een query parameter.
 
-## uitbreiding
+## Uitbreiding
 Ik heb de website gestyled zodat de website er iets beter uitziet.
 Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.
 
