@@ -42,8 +42,8 @@ Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.<br />
 ### Link naar hosted front end: https://dennisraaijmakers.github.io/
 
 ## Screenshot van werkende API
-
-
+Hier kan je zien dat ik een player aangemaakt heb via de website. Eerst klik je op submit om een player aan te maken vervolgens druk je op de knop show players en dan worden alle spelers getoont, ook de speler die je zelf hebt aangemaakt.
+![website post + werkende get request](images/post_request_website.PNG)
 
 ## Bronnenlijst: 
 https://technotrampoline.com/articles/building-an-ajax-form-with-alpinejs/ <br />
