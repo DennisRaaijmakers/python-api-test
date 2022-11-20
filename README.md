@@ -43,7 +43,7 @@ Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.<br />
 
 ## Screenshot van werkende API
 Hier zie je een screenshot van alle get en post requests:
-![docs](images/docs.PNG) <br />
+![docs](images/docs_okteto.PNG) <br />
 
 Hier kan je zien dat ik een speler aangemaakt heb via de website. Eerst klik je op submit om een player aan te maken vervolgens druk je op de knop show players en dan worden alle spelers getoont, ook de speler die je zelf hebt aangemaakt.
 ![website post + werkende get request](images/post_request_website.PNG) <br />
