@@ -33,7 +33,8 @@ Als je in de url `/opperator/info/specific/{opp_id}` (met opp_id als een nummer)
 Als je in de url `/opperator/info/query/random?amount=2` (de nummer 2 kan je aanpassen) krijg je in dit geval 2 random opperators te zien met hun opp_id, opperatorName, primaryWeapon en secondaryWeapon. Hier wordt er gebruik gemaakt van een **query parameter**. <br />
 
 ## Uitbreiding
-Ik heb de website gestyled zodat de website er iets beter uitziet.
+Ik heb de website gestyled zodat de website er iets beter uitziet.<br />
+Ook heb ik een post request op de website staan zodat je een speler kan aanmaken die dan in de lijst verschijnt.
 Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.<br />
 
 ## Links API:
@@ -45,7 +46,12 @@ Ook heb ik gewerkt met een database ik heb ik sqlalchemy gebruikt.<br />
 Hier zie je een screenshot van alle get en post requests:
 ![docs](images/docs_okteto.PNG) <br />
 
-Hier kan je zien dat ik een speler aangemaakt heb via de website. Eerst klik je op submit om een player aan te maken vervolgens druk je op de knop show players en dan worden alle spelers getoont, ook de speler die je zelf hebt aangemaakt.
+Hier kan je zien dat ik een speler aangemaakt heb via de website. Eerst klik je op submit om een player aan te maken vervolgens druk je op de knop show players en dan worden alle spelers getoont, ook de speler die je zelf hebt aangemaakt.<br />
+Op de website heb ik 2 get requests en 1 post request.<br />
+Get request 1: een tabel met alle info over de spelers.<br />
+Get request 2: een lijst van alle operators.<br />
+post request: hier kan je een speler aanmaken.
+
 ![website post + werkende get request](images/post_request_website.PNG) <br />
 
 Via postman kan je ook get en post requests uitvoeren. <br />
