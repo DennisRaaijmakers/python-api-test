@@ -46,7 +46,7 @@ Ook heb ik gewerkt met een database. Ik heb sqlalchemy gebruikt als database.<br
 Hier zie je een screenshot van alle get en post requests:
 ![docs](images/docs_okteto.PNG) <br />
 
-Hier kun je zien dat ik een speler aangemaakt heb via de website. Eerst klik je op submit om een player aan te maken en vervolgens druk je op de knop show players waarna dan alle spelers worden getoont, ook de speler die je zelf hebt aangemaakt.<br />
+Hier kun je zien dat ik een speler aangemaakt heb via de website. Eerst klik je op "submit" om een player aan te maken en vervolgens druk je op de knop "show players" waarna alle spelers worden getoond, ook de speler die je zelf hebt aangemaakt.<br />
 Op de website heb ik 2 get requests en 1 post request.<br />
 Get request 1: een tabel met alle info over de spelers.<br />
 Get request 2: een lijst van alle operators.<br />
@@ -55,7 +55,7 @@ post request: hier kun je een speler aanmaken.
 ![website post + werkende get request](images/post_request_website.PNG) <br />
 
 Via postman kun je ook get en post requests uitvoeren. <br />
-Je kunt alle operators opvragen, die worden dan getoont met hun uitrusting. <br />
+Je kunt alle operators opvragen. Deze worden dan getoond met hun uitrusting. <br />
 Url: `https://api-service-dennisraaijmakers.cloud.okteto.net/opperators/info/all`
 ![postman all players](images/postman_all_operators.PNG) <br />
 
@@ -63,7 +63,7 @@ Je kunt ook een specifieke operator opvragen. Dit doe je door de operator id in 
 Url: `https://api-service-dennisraaijmakers.cloud.okteto.net/opperators/info/specific/{opp_id}`
 ![postman specific player](images/postman_specific_operators.PNG) <br />
 
-Als query parameter heb ik gekozen om verschillende operators random te tonen. Er kunnen geen dubbele komen want als je een getal meegeeft dat groter of gelijk is aan het aantal operators dan worden ze allemaal gegeven. Ook kun je niet hoger gaan als 60. <br /> 
+Als query parameter heb ik er voor gekozen om verschillende operators random te tonen. Er kunnen geen dubbele komen want als je een getal meegeeft dat groter of gelijk is aan het aantal operators dan worden ze allemaal gegeven. Ook kun je niet hoger gaan als 60. <br /> 
 Url: `https://api-service-dennisraaijmakers.cloud.okteto.net/opperators/info/query/random?amount=2`
 ![postman random players](images/postman_random_operators.PNG) <br />
 
@@ -83,7 +83,7 @@ Als je vervolgens een nieuwe specifieke request doet voor de speler dan kun je z
 Url: `https://api-service-dennisraaijmakers.cloud.okteto.net/players/info/specific/post`
 ![show postman post player](images/postman_post_request_2.PNG) <br />
 
-Je kunt ook nog op de website checken of de speler toegevoegd is door weer op de knop show players te drukken.
+Je kunt ook nog op de website checken of de speler toegevoegd is door weer op de knop "show players" te drukken.
 ![website posted player](images/post_request_website_2.PNG) <br />
 
 ## Bronnenlijst: 
